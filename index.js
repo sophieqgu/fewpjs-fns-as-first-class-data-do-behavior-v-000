@@ -10,4 +10,18 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
+function greet(timeString) {
+  if (timeString < '1200') {
+    return "Good Morning";
+  } else if (timeString < '1700') {
+    return "Good Afternoon";
+  } else {
+    return "Good Evening";
+  }
+}
+
+
 /* Write your implementation of displayMessage() */
+function displayMessage(message) {
+  element = getElementById('greeting').innerText = message;
+}
