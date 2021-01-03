@@ -16,7 +16,7 @@ function greet(timeString) {
     return "Good Morning";
   } else if (timeString < 1700) {
     return "Good Afternoon";
-  } else {
+  } else if (timeString < 2400) {
     return "Good Evening";
   }
 }
